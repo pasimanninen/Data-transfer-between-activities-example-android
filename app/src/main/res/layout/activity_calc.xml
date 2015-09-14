@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:onClick="addClicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Substract"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:onClick="substractClicked" />
+
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:text="Multiply"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:onClick="multiplyClicked" />
+
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:text="Divide"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal"
+        android:onClick="divideClicked" />
+</LinearLayout>
